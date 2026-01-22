@@ -1,0 +1,383 @@
+/* Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: l;
+    /* Fuente clara y legible */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* Texto oscuro para buen contraste */
+    line-height: 1.6;
+    /* Mayor espaciado entre líneas para facilitar la lectura */
+     /* Estilos generales */
+    
+    font-size: 18px; /* Fuente grande para legibilidad */
+    line-height: 1.6;
+
+
+}
+
+.TITULO-COLORES {
+    flex: 1;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px #5851de;
+}
+/* Encabezado y banner */
+.banner {
+     background-color: #6fa8dc;
+    display: flex;
+    align-items: center;
+    padding:  0 30px;
+    border-radius: 10px;
+}
+/* Colores del título */
+.c1 { color: #ff595e; }
+.c2 { color: #ffca3a; }
+.c3 { color: #8ac926; }
+.c4 { color: #1982c4; }
+.c5 { color: #6a4c93; }
+.c6 { color: #f1c40f; }
+.c7 { color: #e74c3c; }
+.c8 { color: #8ac926; }
+.c9 { color: #1982c4; }
+.c10 { color: #6a4c93; }
+.c11 { color: #f1c40f; }
+/* Variables de color (suaves y con buen contraste) */
+:root {
+    --color-primario: #ecec26; /* Verde claro */
+    --color-secundario: #2196F3; /* Azul claro */
+    --color-fondo: #FFF8E1; /* Amarillo muy pálido */
+    --color-texto: #333333; /* Gris oscuro (buen contraste) */
+    --color-enlace: #1976D2; /* Azul oscuro para enlaces */
+    --color-boton-hover: #388E3C; /* Verde oscuro para hover */
+}
+/* Estilos generales */
+body {
+    font-size: 18px; /* Fuente grande para legibilidad */
+    line-height: 1.6;
+   
+}
+ .muñecos {
+    border-radius: 7%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 250px;
+    width: 250px;
+    margin: 90pxpx;
+     
+ }
+.contenedor-objetivo {
+  max-width: 1000px; 
+  margin: 0 auto;
+ 
+}
+
+.fila-superior {
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos al inicio superior */
+  gap: 20px; /* Espacio entre la imagen y el texto lateral */
+  margin-bottom: 20px;
+}
+
+.imagen-logo {
+  width: 400px; /* Ajusta el tamaño de la imagen */
+  border-radius: 15px; /* Bordes redondeados como en tu foto */
+  height: auto;
+}
+
+.texto-lateral {
+  flex: 1; /* Hace que el texto tome el espacio restante */
+}
+
+.texto-lateral h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.texto-inferior {
+  border-top: 1px solid #eee; /* Opcional: una línea divisoria suave */
+  padding-top: 15px;
+  width: 100%;
+}
+section,
+article {
+    /* Hacer los bloques visualmente distintos y con padding */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    /* Ancho máximo del contenido */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Fondo blanco semitransparente para el contenido */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.titulo {
+    
+    margin-left: 50px;
+}
+
+ Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: l;
+    /* Fuente clara y legible */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* Texto oscuro para buen contraste */
+    line-height: 1.6;
+    /* Mayor espaciado entre líneas para facilitar la lectura */
+     /* Estilos generales */
+    
+    font-size: 18px; /* Fuente grande para legibilidad */
+    line-height: 1.6;
+
+
+}
+
+.TITULO-COLORES {
+    flex: 1;
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+}
+/* Encabezado y banner */
+.banner {
+     background-color: #6fa8dc;
+    display: flex;
+    align-items: center;
+    padding:  0 30px;
+    border-radius: 10px;
+}
+/* Colores del título */
+.c1 { color: #ff595e; }
+.c2 { color: #ffca3a; }
+.c3 { color: #8ac926; }
+.c4 { color: #1982c4; }
+.c5 { color: #6a4c93; }
+.c6 { color: #f1c40f; }
+.c7 { color: #e74c3c; }
+.c8 { color: #8ac926; }
+.c9 { color: #1982c4; }
+.c10 { color: #6a4c93; }
+.c11 { color: #f1c40f; }
+/* Variables de color (suaves y con buen contraste) */
+:root {
+    --color-primario: #ecec26; /* Verde claro */
+    --color-secundario: #2196F3; /* Azul claro */
+    --color-fondo: #FFF8E1; /* Amarillo muy pálido */
+    --color-texto: #333333; /* Gris oscuro (buen contraste) */
+    --color-enlace: #1976D2; /* Azul oscuro para enlaces */
+    --color-boton-hover: #388E3C; /* Verde oscuro para hover */
+}
+/* Estilos generales */
+body {
+    font-size: 18px; /* Fuente grande para legibilidad */
+    line-height: 1.6;
+   
+}
+ .muñecos {
+    border-radius: 7%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 250px;
+    width: 250px;
+    margin: 90pxpx;
+     
+ }
+.contenedor-objetivo {
+  max-width: 1000px; 
+  margin: 0 auto;
+ 
+}
+
+.fila-superior {
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos al inicio superior */
+  gap: 20px; /* Espacio entre la imagen y el texto lateral */
+  margin-bottom: 20px;
+}
+
+.imagen-logo {
+  width: 400px; /* Ajusta el tamaño de la imagen */
+  border-radius: 15px; /* Bordes redondeados como en tu foto */
+  height: auto;
+}
+
+.texto-lateral {
+  flex: 1; /* Hace que el texto tome el espacio restante */
+}
+
+.texto-lateral h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.texto-inferior {
+  border-top: 1px solid #eee; /* Opcional: una línea divisoria suave */
+  padding-top: 15px;
+  width: 100%;
+}
+section,
+article {
+    /* Hacer los bloques visualmente distintos y con padding */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    /* Ancho máximo del contenido */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Fondo blanco semitransparente para el contenido */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.titulo {
+    
+    margin-left: 50px;
+}
+
+/* Estilos de accesibilidad para botones y enlaces */
+a,
+button {
+    background-color: hwb(184 13% 0% / 0.824);
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border: 2px solid #0acceed2;
+    /* Borde visible */
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    /* Texto más grande */
+    transition: background-color 0.3s;
+}
+/* Ocultar elementos visuales complejos por ahora y centrarnos en el contenido */
+.dibujo-container {
+    /* En un CSS real, aquí iría el estilo para la imagen grande del dibujo */
+    text-align: center;
+}
+
+/* Mejorar la legibilidad de la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    /* Permite que los elementos bajen en pantallas pequeñas */
+}
+
+/* Estilo para los botones/áreas de contenido */
+.contenido-item {
+    background-color: #4648e4;
+    /* Azul Medio/Cian */
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.979);
+}
+
+/* Estilo para el formulario de contacto */
+.contacto-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contacto-form input[type="text"],
+.contacto-form input[type="email"],
+.contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* Incluye padding y borde en el ancho total */
+    font-size: 1em;
+}
+
+
+.logotipo {
+    border-radius: 7%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    height: 90px;
+    width: 90px;
+    margin: 30pxpx;
+}
+.azul {
+    background-color: rgb(120, 157, 227);
+    color: #333;
+    border: rgb(120, 157, 227);
+}
+
+.naranja {
+    background-color: rgb(222, 132, 68);
+    color: #333;
+    border: rgb(222, 132, 68);
+
+}
+
+.vino {
+    background-color: rgb(154, 53, 108);
+    color: #333;
+    border: rgb(154, 53, 108);
+}
+
+.blanco {
+    background-color: rgb(238, 230, 230);
+    color: #333;
+    border: rgba(255, 255, 255, 0.9);
+
+}
+.verde {
+    background-color: rgb(23, 236, 16);
+    color: #333;
+    border: rgba(46, 202, 41, 0.9);
+
+}
+
+
+.contenedor{
+    /* imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    object-position: center;
+}
+
+.servicios{
+    background-color: green;
+}
+footer{
+    background-color: rgb(252, 252, 74);
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    color: #666;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English 4 Kids</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+<!--ENCABEZADO-->
+    <header>
+       <div class="banner">
+            <img src="/boceto/imagenes/pinwino.jpeg" alt="logo de la empresa" class="logotipo">
+            <h1 class="TITULO-COLORES">
+            <span class="c1">E</span><span class="c2">N</span><span class="c3">G</span><span class="c4">L</span><span class="c5">I</span><span class="c6">S</span><span class="c7">H</span>
+            <span class="c6"> </span><span class="C1"> </span>
+            <span class="c1">4</span>
+            <span class="c2"> </span><span class="C1">  </span>
+            <span class="c2">K</span><span class="c3">I</span><span class="c4">D</span><span class="c5">S</span>
+            </h1>
+            <a href="#cuenta-usuario" class="Registro" style="background-color: #f4ff5a; text-decoration:none; display:inline-block; padding:10px;">Registro</a>
+        </div>
+    </header>
+   
+
+    <nav aria-controls="Navegación Principal">
+        <a href="/boceto/index.html" target="_blank" role="button" class="blanco">Menú</a>
+        <a href="/boceto/cont/Servicios cont.html" target="_blank" role="button" class="azul">Servicios</a>
+        <a href="/boceto/sobre nosotros/sobre nosotros index.html" target="_blank" role="button" class="naranja">Sobre Nosotros</a>
+        <a href="/boceto/casosdeexito/exito.html" target="_blank" role="button" class="vino">Casos de Éxito</a>
+        <a href="/boceto/terminos de privacidad/terminos.html" target="_blank" role="button" class="verde">Términos y Privacidad</a>
+    </nav>
+
+    <main>
+    
+ <section class="contenedor-objetivo">
+  <div class="fila-superior">
+    <!-- Imagen a la izquierda -->
+    <img src="/boceto/imagenes/muñequitos.jpeg" alt="Personaje" class="imagen-logo">
+    
+    <!-- Texto al lado derecho de la imagen -->
+    <div class="texto-lateral">
+      <h2>Objetivos</h2>
+      <p>Nuestros objetivos son proporcionar un entorno de aprendizaje de ingles accesible y divertido para niños con Deficiencia visual y síndrome de Down. El desarrollar habilidades lingüísticas en inglés. Y finalmente fomentar la confianza y motivación en los niños para aprender inglés.
+English 4 Kids se ha diseñado con características especiales para satisfacerlas necesidades de los niños con deficiencia visual y síndrome de Down</p>
+    </div>
+  </div>
+
+  <!-- Texto en la parte inferior -->
+   <h2>Técnicas de Aprendizaje</h2>
+  <div class="texto-inferior">
+     <ul>
+      <li>Involucrar el uso de múltiples sentidos (táctil, auditivo, visual grande y con contraste).</li>
+                <li>Incorporación de juegos y actividades lúdicas con repetición y refuerzo positivo.</li>
+                <li>Técnicas multisensoriales (Incorpora audio, videos y elementos táctiles para reforzar el aprendizaje).</li>
+                <li>Repetición y refuerzo(Ofrece repetición constante de conceptos clave con juegos y retroalimentación inmediata).</li>
+                <li>Rutinas y estructura(Establece rutinas claras y predecibles en lecciones cortas y bien estructuradas).</li>
+                <li>Flexibilidad y personalización (Permite ajustar la experiencia de aprendizaje según las necesidades individuales del niño).</li>
+                <li>Lenguaje sencillo (Utiliza oraciones cortas y palabras fáciles de entender, apoyado en imágenes claras).</li>
+            </ul>
+  </div>
+</section>
+<section id="contenidos">
+            <h2> Contenidos Principales</h2>
+            <p>Estos son algunos de los temas que puedes encontrar en English 4 Kids:</p>
+            <nav aria-controls="Navegación de Contenidos">
+                <a href="saludos.html" class="contenido-item" role="button">Saludos</a>
+                <a href="colores.html" class="contenido-item" role="button">Colores</a>
+                <a href="animales.html" class="contenido-item" role="button">Animales</a>
+                <a href="pronombres.html" class="contenido-item" role="button">Pronombres</a>
+                </nav>
+        </section>
+
+        <hr>
+
+        <section id="redes">
+            <h2> Nuestras Redes Sociales</h2>
+            <p>Síguenos para más informacion: @EnEnglish4Kids</p>
+            <p>
+                <a href="#" aria-label="Enlace a X/Twitter"><span role="img" aria-label="Ícono de X">🐦</span> X</a>
+                <a href="#" aria-label="Enlace a Facebook"><span role="img" aria-label="Ícono de Facebook">📘</span> Facebook</a>
+                <a href="#" aria-label="Enlace a TikTok"><span role="img" aria-label="Ícono de TikTok">🎵</span> TikTok</a>
+            </p>
+        </section>
+
+        <hr>
+   
+
+        <hr>
+
+        <!-- SECCIÓN DE CUENTA DE USUARIO PARA GUARDAR AVANCES -->
+        <section id="cuenta-usuario">
+            <h2 class="Registro">👤 Mi Cuenta</h2>
+            <p>Crea una cuenta para no perder tus puntos y niveles completados.</p>
+            
+            <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <!-- Formulario de Registro -->
+                <form class="contacto-form" action="/register" method="POST" style="flex: 1; min-width: 250px;">
+                    <h3>Registrarse</h3>
+                    <label>Usuario nuevo</label>
+                    <input class="text-input" type="text" name="username" required>
+                    <label>Contraseña</label>
+                    <input class="text-input" type="password" name="password" required>
+                    <button type="submit" class="contenido-item" style="background-color: #78e08f;">Crear Cuenta</button>
+                </form>
+
+                <!-- Formulario de Inicio de Sesión -->
+                <form class="contacto-form" action="/login" method="POST" style="flex: 1; min-width: 250px;">
+                    <h3>Iniciar Sesión</h3>
+                    <label>Usuario</label>
+                    <input class="text-input" type="text" name="username" required>
+                    <label>Contraseña</label>
+                    <input class="text-input" type="password" name="password" required>
+                    <button type="submit" class="contenido-item" style="background-color: #f6b93b;">Entrar a mis Avances</button>
+                </form>
+            </div>
+        </section>
+    </fieldset>
+    </main>
+     <script>
+// Función para guardar un avance (ejemplo: cuando termina una lección)
+function guardarAvance(tema, nivel) {
+    let progreso = JSON.parse(localStorage.getItem('progreso_kids')) || {};
+    progreso[tema] = nivel;
+    localStorage.setItem('progreso_kids', JSON.stringify(progreso));
+    alert("¡Avance guardado!");
+}
+
+// Función para cargar los avances al abrir la página
+function cargarAvances() {
+    let progreso = JSON.parse(localStorage.getItem('progreso_kids'));
+    if(progreso) {
+        console.log("El progreso actual es:", progreso);
+        // Aquí podrías marcar con un check ✔️ los temas completados
+    }
+}
+
+window.onload = cargarAvances;
+</script>
+    <footer>
+        <p>Copyright © 2025 English 4 Kids. Todos los derechos reservados.</p>
+        <p> English 4 Kids</p>
+    </footer>
+
+
+</body>
+</html>
